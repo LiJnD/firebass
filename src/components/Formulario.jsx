@@ -155,15 +155,15 @@ const Formulario = () => {
             <hr />
             <div className='row'>
                 <div className='col-8'>
-                    <h4 className="text-center">Listado de Ropas</h4>
+                    <h4 id='nombrelist'>Listado de Ropas</h4>
                     <ul className='list-group'>
                         {
                             //botones de editar
                             ListaRopa.map(item => (
                                 <li className='list-group-item' key={item.id}>
                                     <span className="lead">{item.nombreGenero}------{item.nombreEdad}---{item.nombreRopa}---{item.nombreTipo}---{item.nombreTalla}---{item.nombreColor}------{item.nombreDescripcion}</span>
-                                    <button className="btn btn-warning btn-sm fload-end" onClick={() => EditarRopa(item)}>Editar</button>
-                                    <button className="btn btn-danger btn-sm fload-end mx-2" onClick={() => EliminarRopa(item.id)}>Eliminar</button>
+                                    <button className="btn btn-warning btn-sm fload-end" id='BottonesEditar' onClick={() => EditarRopa(item)}>Editar</button>
+                                    <button className="btn btn-danger btn-sm fload-end mx-2" id='BottonesEliminar' onClick={() => EliminarRopa(item.id)}>Eliminar</button>
 
                                 </li>
                             ))
@@ -184,12 +184,12 @@ const Formulario = () => {
                             //botones de modificacion en el editar
                             modoEdition ? (
                                 <>
-                                    <button className="btn btn-warning btn-block" on="submit">Confirmar</button>
-                                    <button className="btn btn-dark btn-block mx-2" onClick={() => cancelarEdititon()}>Cancelar</button>
+                                    <button className="btn btn-warning btn-block" id='BottonesEditar' on="submit">Confirmar</button>
+                                    <button className="btn btn-dark btn-block mx-2"  id='BottonesEliminar' onClick={() => cancelarEdititon()}>Cancelar</button>
                                 </>
                             )
                                 :
-                                <button className="btn btn-primary btn-block" on="submit">Agregar</button>
+                                <button className="btn btn-primary btn-block"  id='BottonesEliminar' on="submit">Agregar</button>
                         }
                     </form>
                 </div>
