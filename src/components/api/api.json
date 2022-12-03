@@ -1,0 +1,72 @@
+[
+    {
+        "Id": 1,
+        "Titulo": "Camisa marron mujer",
+        "Img": "https://static.bershka.net/4/photos2/2023/V/0/1/p/6297/168/505/32e1c026f9a889609a6cb522a98a1820-6297168505_2_4_0.jpg?cropfixwidth=2052&imwidth=750&impolicy=bershka-crop-fix-width-itxmediumhigh&imformat=generic"
+    },
+    {
+        "Id": 2,
+        "Titulo": "Camisa rosa mujer",
+        "Img": "https://static.bershka.net/4/photos2/2022/I/0/1/p/6297/168/645/f2f8a6af96033445ce495538ea28b3c7-6297168645_2_4_0.jpg?cropfixwidth=2052&imwidth=750&impolicy=bershka-crop-fix-width-itxmedium&imformat=generic"
+    },
+    {
+        "Id": 3,
+        "Titulo": "Camisa beish mujer",
+        "Img": "https://static.bershka.net/4/photos2/2022/I/0/1/p/6297/168/704/6297168704_2_4_4.jpg?t=1665649327068"
+    },
+    {
+        "Id": 4,
+        "Titulo": "Camisa gris mujer",
+        "Img": "https://media.vogue.mx/photos/6197e62b55e89a26388f0b9a/master/w_320%2Cc_limit/alexander-mcqueen-cardigan.jpeg"
+    },
+    {
+        "Id": 5,
+        "Titulo": "Camisa Blanca mujer",
+        "Img": "https://phantom-telva.unidadeditorial.es/f35a6c83fec5593b4e3ab1ae1b8172f9/resize/640/assets/multimedia/imagenes/2021/12/22/16401832959179.jpg"
+    },
+    {
+        "Id": 6,
+        "Titulo": "Blusa crooper",
+        "Img": "https://clonesdezara.com/wp-content/uploads/2021/11/Camisa-Cropped-Drapeada-ALIEXPRESS-500x500.jpg"
+    },
+    {
+        "Id": 7,
+        "Titulo": "Blusa de algodon",
+        "Img": "https://phantom-telva.unidadeditorial.es/3adc78c8fb290e5da02b87c34beb0049/resize/640/assets/multimedia/imagenes/2021/12/22/16401832963885.jpg"
+    },
+    {
+        "Id": 8,
+        "Titulo": "Blusa beige",
+        "Img": "https://lp2.hm.com/hmgoepprod?set=source[/da/8e/da8e51a0c04cadb0b7fe3d409cf76098ac055e25.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]"
+    },
+    {
+        "Id": 9,
+        "Titulo": "Blusa saten",
+        "Img": " "
+    },
+    {
+        "Id": 10,
+        "Titulo": "",
+        "Img": " "
+    },
+    {
+        "Id": 11,
+        "Titulo": "",
+        "Img": " "
+    },
+    {
+        "Id": 12,
+        "Titulo": "",
+        "Img": " "
+    },
+    {
+        "Id": 13,
+        "Titulo": "",
+        "Img": " "
+    },
+    {
+        "Id": 14,
+        "Titulo": "",
+        "Img": " "
+    }
+]
