@@ -16,10 +16,16 @@ const Formulario = () => {
                 nombreRopa: Ropa,
                 nombreDescripcion: Descripcion
             })
-        }catch(error){
+            setListaRopa(
+                [...ListaRopa, { nombreRopa: Ropa,nombreDescripcion: Descripcion, id: data.id }]
+            )
+            setRopa('')
+            setDescripcion('')
+
+        } catch (error) {
             console.log(error)
         }
-}
+    }
 
     return (
         <div className='container mt-5'>
@@ -36,8 +42,8 @@ const Formulario = () => {
                 <div className='col-4'>
                     <h4 className='text-center'>Agregar Ropa</h4>
                     <form onSubmit={GuardarRopa}>
-                        <input type="text" className='form-control mb-2' placeholder='Ingrese Ropa' value={Ropa} onChange = {(e)=>setRopa(e.target.value)} />
-                        <input type="text" className='form-control mb-2' placeholder='Ingrese Descripción' value={Descripcion} onChange = {(e)=>setDescripcion(e.target.value)}/>
+                        <input type="text" className='form-control mb-2' placeholder='Ingrese Ropa' value={Ropa} onChange={(e) => setRopa(e.target.value)} />
+                        <input type="text" className='form-control mb-2' placeholder='Ingrese Descripción' value={Descripcion} onChange={(e) => setDescripcion(e.target.value)} />
                         <button className="btn btn-primary btn-block" on="submit">Agregar</button>
                         <button className="btn btn-dark btn-block mx-2">Cancelar</button>
                     </form>
