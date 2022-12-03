@@ -35,9 +35,9 @@ const Formulario = () => {
                 </div>
                 <div className='col-4'>
                     <h4 className='text-center'>Agregar Ropa</h4>
-                    <form action="">
-                        <input type="text" className='form-control mb-2' placeholder='Ingrese Ropa' value={Ropa} />
-                        <input type="text" className='form-control mb-2' placeholder='Ingrese Descripción' value={Descripcion}/>
+                    <form onSubmit={GuardarRopa}>
+                        <input type="text" className='form-control mb-2' placeholder='Ingrese Ropa' value={Ropa} onChange = {(e)=>setRopa(e.target.value)} />
+                        <input type="text" className='form-control mb-2' placeholder='Ingrese Descripción' value={Descripcion} onChange = {(e)=>setDescripcion(e.target.value)}/>
                         <button className="btn btn-primary btn-block" on="submit">Agregar</button>
                         <button className="btn btn-dark btn-block mx-2">Cancelar</button>
                     </form>
