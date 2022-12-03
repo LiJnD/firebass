@@ -1,5 +1,5 @@
 body {
-    background-image: url('/src/components/img/fondoBerssh.jpg');
+    background-image: url('/src/components/img/dualioa.webp');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -7,4 +7,9 @@ body {
 
 .form-control {
     text-transform: capitalize;
+}
+
+.list-group {
+    text-transform: capitalize;
+    opacity: 0.8;
 }

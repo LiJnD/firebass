@@ -161,8 +161,7 @@ const Formulario = () => {
                             //botones de editar
                             ListaRopa.map(item => (
                                 <li className='list-group-item' key={item.id}>
-                                    <span className="lead">{item.nombreGenero}------{item.nombreEdad}---{item.nombreRopa}---{item.nombreTipo}---
-                                    ---{item.nombreTalla}---{item.nombreColor}------{item.nombreDescripcion}</span>
+                                    <span className="lead">{item.nombreGenero}------{item.nombreEdad}---{item.nombreRopa}---{item.nombreTipo}---{item.nombreTalla}---{item.nombreColor}------{item.nombreDescripcion}</span>
                                     <button className="btn btn-warning btn-sm fload-end" onClick={() => EditarRopa(item)}>Editar</button>
                                     <button className="btn btn-danger btn-sm fload-end mx-2" onClick={() => EliminarRopa(item.id)}>Eliminar</button>
 
