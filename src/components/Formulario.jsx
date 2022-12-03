@@ -1,13 +1,24 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect} from 'react'
 import { db } from '../firebase'
 import { collection, doc, addDoc } from 'firebase/firestore'
+import { async } from '@firebase/util'
 
 const Formulario = () => {
 
     const [Ropa, setRopa] = useState('')
     const [Descripcion, setDescripcion] = useState('')
     const [ListaRopa, setListaRopa] = useState([])
+
+useEffect(()=>{
+    const obtenerDatos = async () =>{
+        try {
+            
+        } catch (error) {
+            console.log(error)
+        }
+    } 
+})
 
     const GuardarRopa = async (e) => {
         e.preventDefault()
