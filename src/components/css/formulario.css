@@ -52,3 +52,10 @@ body {
     rgba(0, 0, 0, 0.566);
     color: black;
 }
+
+.card {
+    max-height: 30px;
+    min-height: 20px;
+    max-width: 10px;
+    min-width: 10px;
+}

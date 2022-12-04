@@ -147,7 +147,6 @@ const Formulario = () => {
         setModoEdition(false)
     }
 
-
     //correr programas
     return (
         <div className='container mt-5'>
@@ -174,7 +173,7 @@ const Formulario = () => {
                     <h4 className='text-center'>{modoEdition ? 'Editando Ropa' : 'Agrege Ropa'}</h4>
                     <form onSubmit={modoEdition ? editorRopa : GuardarRopa}>
                         <input type="text" className='form-control mb-2' placeholder='Ingrese Genero' value={Genero} onChange={(e) => setGenero(e.target.value)} />
-                        <input type="text" className='form-control mb-2' placeholder='Ingrese Edad' value={Edad} onChange={(e) => setEdad(e.target.value)} />
+                        <input type="text" className='form-control mb-2' placeholder='Ingrese Aduto o Niño' value={Edad} onChange={(e) => setEdad(e.target.value)} />
                         <input type="text" className='form-control mb-2' placeholder='Ingrese ropa' value={Ropa} onChange={(e) => setRopa(e.target.value)} />
                         <input type="text" className='form-control mb-2' placeholder='Ingrese Tipo de ropa' value={TipoRopa} onChange={(e) => setTipoRopa(e.target.value)} />
                         <input type="text" className='form-control mb-2' placeholder='Ingrese la Talla' value={Talla} onChange={(e) => setTalla(e.target.value)} />
@@ -185,11 +184,11 @@ const Formulario = () => {
                             modoEdition ? (
                                 <>
                                     <button className="btn btn-warning btn-block" id='BottonesEditar' on="submit">Confirmar</button>
-                                    <button className="btn btn-dark btn-block mx-2"  id='BottonesEliminar' onClick={() => cancelarEdititon()}>Cancelar</button>
+                                    <button className="btn btn-dark btn-block mx-2" id='BottonesEliminar' onClick={() => cancelarEdititon()}>Cancelar</button>
                                 </>
                             )
                                 :
-                                <button className="btn btn-primary btn-block"  id='BottonesEliminar' on="submit">Agregar</button>
+                                <button className="btn btn-primary btn-block" id='BottonesEliminar' on="submit">Agregar</button>
                         }
                     </form>
                 </div>
