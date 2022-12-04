@@ -29,7 +29,7 @@ const Formulario = () => {
             }
         }
         obtenerDatos(ListaRopa);
-    },)
+    })
 
     //guardado de items
     const GuardarRopa = async (e) => {
